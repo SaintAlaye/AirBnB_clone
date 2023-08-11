@@ -19,6 +19,3 @@ class BaseModel:
 		self.updated = datetime.today()
 		if len(kwargs) != 0:
 			for key, value in kwargs.items():
-
-
-
